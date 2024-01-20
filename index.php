@@ -27,10 +27,18 @@ $matriz_Nquadrada2 = [
     [7, 4]
 ];
 
-echo "MATRIZES";
 
+echo "\n";
+echo "MULTIPLICAÇÃO MATRIZES QUADRADAS:\n";
+echo "\n";
 
 multiplicar_matrizes($matriz_quadrada1, $matriz_quadrada2);
+
+echo "\n";
+echo "MULTIPLICAÇÃO MATRIZES NÃO QUADRADAS:\n";
+echo "\n";
+
 multiplicar_matrizes($matriz_Nquadrada1, $matriz_Nquadrada2);
 
+echo "\n";
 ?>

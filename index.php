@@ -32,13 +32,17 @@ echo "\n";
 echo "MULTIPLICAÇÃO MATRIZES QUADRADAS:\n";
 echo "\n";
 
-multiplicar_matrizes($matriz_quadrada1, $matriz_quadrada2);
+$multi1 = multiplicar_matrizes($matriz_quadrada1, $matriz_quadrada2);
+echo "\n";
+formatMatriz($multi1);
 
 echo "\n";
 echo "MULTIPLICAÇÃO MATRIZES NÃO QUADRADAS:\n";
 echo "\n";
 
-multiplicar_matrizes($matriz_Nquadrada1, $matriz_Nquadrada2);
+$multi2 = multiplicar_matrizes($matriz_Nquadrada1, $matriz_Nquadrada2);
+echo "\n";
+formatMatriz($multi2);
 
 echo "\n";
 ?>

@@ -34,6 +34,8 @@ echo "\n";
 
 $multi1 = multiplicar_matrizes($matriz_quadrada1, $matriz_quadrada2);
 echo "\n";
+echo "Matriz resultante:\n";
+echo "\n";
 formatMatriz($multi1);
 
 echo "\n";
@@ -41,6 +43,8 @@ echo "MULTIPLICAÇÃO MATRIZES NÃO QUADRADAS:\n";
 echo "\n";
 
 $multi2 = multiplicar_matrizes($matriz_Nquadrada1, $matriz_Nquadrada2);
+echo "\n";
+echo "Matriz resultante:\n";
 echo "\n";
 formatMatriz($multi2);
 
